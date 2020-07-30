@@ -1,0 +1,33 @@
+/* safaris page designs*/
+.safaris{
+    width: 100%;
+    align-content: center;
+    border-style: dotted;
+    border-color: mediumseagreen;
+    display: flex;
+    padding: 20px;
+}
+h5{
+    text-align: center;
+    color: mediumslateblue;
+}
+h4{
+    text-align: center;
+    color: rgb(60, 141, 13);
+}
+.left-safaris{
+    width: 50%;;
+    color: rgb(6, 1, 36);
+    font-family: sans-serif;
+    font-size: 14px;  
+    padding: 10px;
+}
+.space{
+    width: 2px;
+    height: 0 auto;
+    background-color: rgb(60, 231, 111);
+}
+
+/*----OUR SAFARIS DESIGN ENDED; */
+
+/*DESTINATION PAGE BRGINS */

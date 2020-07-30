@@ -1,0 +1,99 @@
+.background{
+    background-color: rgb(222, 238, 195);
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.bdb{
+    padding-bottom: 60px;
+}
+/* this is galary styler js*/
+#galas-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    color: darkred;
+    gap: 10px;
+    background-color: rgba(13, 211, 63, 0.747);
+    padding: 15px;
+}
+.inter{
+    padding: 20px;
+    padding-top: 60%;
+    align-items: center;
+}
+.inter a{
+    color: rgb(243, 240, 247);
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+.galary-title{
+    text-indent: 260px;
+    transition-duration: 3s;
+    transition: step-start;
+    transform-origin: left;
+}
+#galas-container .galary-img{
+   width: 96%;
+   height:200px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: center;
+   cursor: pointer;
+   grid-template-areas: 
+   "img1 img2 img3 img4 img5"
+   "img6 img7 img3 img9 img10"
+;
+}
+/* styles for each images in a galary...*/
+
+#galas-container .img1{
+    grid-area: 1mg1;
+    background-image: url(../img/Uganda-Gorilla-Trekking-Safari2.jpg);
+
+}
+#galas-container .img2{
+    grid-area: 1mg2;
+    background-image: url(../img/Lake-Mburo-National-Park.jpg);
+
+}
+#galas-container .img3{
+    grid-area: 1mg3;
+    background-image: url(../img/elepa.jpg);
+
+}
+#galas-container .img4{
+    grid-area: 1mg4;
+    background-image: url(../img/800by600/Mucison.png);
+
+}
+#galas-container .img5{
+    grid-area: 1mg5;
+    background-image: url(../img/leopa.jpg);
+
+}
+#galas-container .img6{
+    grid-area: 1mg6;
+    background-image: url(../img/lion.jpg);
+
+}
+#galas-container .img7{
+    grid-area: 1mg7;
+    background-image: url(../img/elep.jpg);
+
+}
+#galas-container .img8{
+    grid-area: 1mg8;
+    background-image: url(../img/800by600/Hipos.png);
+
+}
+#galas-container .img9{
+    grid-area: 1mg9;
+    background-image: url(../img/uganda-murchison-falls.jpg);
+
+}
+#galas-container .img10{
+    grid-area: 1mg10;
+    background-image: url(../img/discover-uganda-giraffe.jpg);
+
+}

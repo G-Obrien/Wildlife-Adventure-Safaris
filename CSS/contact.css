@@ -1,0 +1,29 @@
+#hed{
+    text-align: center;
+    text-decoration: double;
+    transition: ease-in-out;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+    color: green;
+}
+.white-space{
+    width: 2px;
+    background-color: lawngreen;
+}
+.con-div1{
+    background-color: rgba(241, 185, 111, 0.705);
+    width: 450px;
+    padding: 10px;
+    color: black;
+}
+.contact-main-div{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.map{
+    width: 430px;
+    background-color: rgb(47, 88, 5);
+    border-style: solid;
+    border-right: rgb(26, 148, 87);
+}

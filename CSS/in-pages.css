@@ -1,0 +1,25 @@
+.Warning{
+    background-image: url(../img/me.jpg);
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 350px;
+    color: rgb(228, 3, 3);
+    padding: 20px;
+    padding-top: 120px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.Warning h1{
+    font-family: monospace;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.div-body{
+    width: 100%;
+text-align: center;
+padding-left: 450px;
+}
