@@ -1,0 +1,92 @@
+.logo-img{
+  width: 30%;
+  height: 0 auto;
+}
+.bingo{
+  padding-left:4px;
+  padding-bottom: 7px;
+}
+ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.links{
+  padding-right: 400px;
+  padding-top: 10px;
+  padding-left: 10px;
+  justify-content: stretch;
+  padding-bottom: 5px;
+}
+.nav-link{
+   
+  font-size: 13px;
+  color: rgb(6, 3, 17);
+  
+}
+.links ol li a{
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+.sublinks{
+    display: none;
+    box-shadow: black;
+  shape-outside: repeating-radial-gradient();
+  
+}
+
+.links ol li:hover .sublinks{
+    display: block;
+    width: 150px;
+   
+}
+div ul li a{
+color: rgb(243, 243, 243);
+background-color: rgba(33, 46, 33, 0.733);
+border-bottom: 1px, solid, #fff;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+padding: 5px;
+text-size-adjust:4%;
+}
+div ul li:hover a{
+  background-color: rgba(7, 99, 22, 0.842);
+  color: aliceblue;
+}
+ul{
+    list-style: none;
+    shape-outside: border-box;
+}
+hr{
+    color: rgba(3, 53, 45, 0.966);
+    background-color: chartreuse;
+}
+/* down images */
+.bd-img{
+  text-align: center;
+  background-color: rgba(235, 192, 161, 0.616);
+}
+.img-foot{
+  display: flex;
+}
+.pmp{
+  background-color: cornsilk;
+  width: 25%;
+  padding: 5px;
+}
+.pmp img{
+  width: 240px;
+}
+h5{
+  color: crimson;
+  font-family: 'Segoe UI', Tahoma;
+  font-size: 5px;
+}
+button{
+  color: rgb(18, 214, 18);
+  border-radius: 12px;
+  border: solid green;
+}

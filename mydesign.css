@@ -1,0 +1,136 @@
+.bdb{
+    padding: 5px;
+    padding-bottom: 10px;
+}
+.nav-contact{
+    display: flex;
+    background-color: rgb(96, 97, 97);
+    color: floralwhite;
+    padding: 5px;
+    width: 100%;
+}
+.headerOL{
+    display: flex;
+    text-align: right;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 55%;
+   
+}
+.nav-contact h6{
+padding-left: 6px;
+}
+.Iicon-hd{
+    padding-top: 3px;
+    width: 30px;
+    height:20px;
+    padding-left: 15px;
+    }
+  .headerOL .Iicon{
+  width: 30px;
+  height: 0 auto;
+  padding-left: 15px;
+  }
+  /* baody design */
+.carousel-item{
+    height: 400px;
+   align-content: center;
+   background-position: center;
+   background-size: cover;
+   padding-bottom: 20px;
+}
+.carousel-item img{
+   height: 150%;
+}
+.carousel-inner{
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: rgba(16, 197, 31, 0.527);
+}
+.slide-text1{
+    color: rgb(243, 189, 11);
+    background-color: rgba(13, 199, 38, 0.664);
+transition-delay: 1s;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.slide-text2{
+    color: rgb(243, 226, 226);
+    background-color: rgba(0, 0, 255, 0.521);
+transition-delay: 1s;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* login form designs*/
+}
+.login-form{
+    
+    text-align: center;
+    color: darkorange;
+    border:4px, ;
+    border-width: 5px;
+    border-color: rgb(7, 145, 41);
+    height: 0 auto;
+    
+}
+.divy{
+    background-color: rgba(240, 112, 165, 0.24);
+    border:4px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(241, 142, 12);
+    width: 400px;
+    height: 0 auto;
+    padding:30px;
+}
+
+.login-form .input1{
+    border-radius: 15px;
+    width: 250px;
+    background-blend-mode: screen;
+    text-align: center;
+    border-style: double;
+}
+.login-form .input2{
+    border-radius: 15px;
+    width: 250px;
+    background-blend-mode: screen;
+    text-align: center;
+    border-style: double;
+}
+.login-form .butn1{
+    border-radius: 12px;
+    width: 100px;
+}
+.login-form .butn2{
+    border-radius: 12px;
+    width: 100px;
+}
+.payas{
+    background-color: rgba(241, 245, 239, 0.411);
+    border:4px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(99, 11, 5);
+    width: 200px;
+    color: black;
+    height: 0 auto;
+    padding:30px;
+}
+.fami{
+    background-color: rgba(254, 255, 251, 0.548);
+    border:4px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(228, 13, 13);
+    color: black;
+    width: 750px;
+    height: 0 auto;
+    padding:30px;
+}
+.fami a{
+color: rgb(255, 0, 0);
+background-color: rgb(240, 236, 233);
+width: 200px;
+text-align:center;
+}
